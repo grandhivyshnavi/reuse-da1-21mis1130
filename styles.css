@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+.goal-card {
+    transition: transform 0.3s;
+}
+.goal-card:hover {
+    transform: scale(1.05);
+}
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}

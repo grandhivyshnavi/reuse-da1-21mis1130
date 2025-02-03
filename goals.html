@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG Goals - Tamil Nadu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        nav.navbar {
+            background-color: MediumSeaGreen; /* Soft Green for the navbar */
+        }
+
+        .goal-card {
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .goal-card:hover {
+            transform: scale(1.05);
+        }
+
+        .card {
+            max-width: 100%;
+            height: 100%;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            padding: 1rem;
+        }
+
+        .goal-card img {
+            height: 150px; /* Adjusted image height */
+            width: 100%; /* Ensures the image is responsive */
+            object-fit: contain; /* Makes sure the image is well-contained */
+        }
+
+        .card-footer {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .btn {
+            margin-top: auto; /* Push button to the bottom */
+        }
+
+        .row {
+            justify-content: center; /* Centers the content horizontally */
+        }
+
+        @media (max-width: 767px) {
+            .col-sm-6 {
+                margin-bottom: 20px;
+            }
+        }
+        footer {
+            background-color: MediumSeaGreen;
+        }
+
+        .btn btn-primary{
+            background-color:#E1EACD;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SDG Goals - Tamil Nadu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="goals.html">SDG Goals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="progress.html">Progress</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center">17 Sustainable Development Goals (SDGs)</h2>
+        <div class="row mt-4">
+            <!-- Goal 1 to Goal 4 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg" class="card-img-top"
+                        alt="No Poverty">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 1: No Poverty</h5>
+                        <p class="card-text">Tamil Nadu has launched several poverty alleviation programs such as the Amma Mini Clinic Scheme.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-02.jpg" class="card-img-top"
+                        alt="Zero Hunger">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 2: Zero Hunger</h5>
+                        <p class="card-text">Tamil Nadu has implemented the PDS (Public Distribution System) for food security.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-03.jpg" class="card-img-top"
+                        alt="Good Health">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 3: Good Health</h5>
+                        <p class="card-text">The TN government has improved public healthcare services through schemes like Makkalai Thedi Maruthuvam.</p>
+                        <a href="https://www.nhm.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-04.jpg" class="card-img-top"
+                        alt="Quality Education">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 4: Quality Education</h5>
+                        <p class="card-text">Tamil Nadu has launched the Illam Thedi Kalvi scheme to enhance education in rural areas.</p>
+                        <a href="https://illamthedikalvi.tnschools.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Goal 5 to Goal 8 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-05.jpg" class="card-img-top"
+                        alt="Gender Equality">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 5: Gender Equality</h5>
+                        <p class="card-text">Tamil Nadu promotes women's empowerment through schemes like the Women's Component Plan.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-06.jpg" class="card-img-top"
+                        alt="Clean Water and Sanitation">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 6: Clean Water and Sanitation</h5>
+                        <p class="card-text">The state has worked on projects for providing clean drinking water and sanitation facilities to rural areas.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-07.jpg" class="card-img-top"
+                        alt="Affordable and Clean Energy">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 7: Affordable and Clean Energy</h5>
+                        <p class="card-text">Tamil Nadu is a leader in renewable energy, especially in wind and solar power generation.</p>
+                        <a href="https://www.teda.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-08.jpg" class="card-img-top"
+                        alt="Decent Work and Economic Growth">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 8: Decent Work and Economic Growth</h5>
+                        <p class="card-text">Tamil Nadu focuses on providing employment opportunities through skill development and industrial growth.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Goal 9 to Goal 12 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-09.jpg" class="card-img-top"
+                        alt="Industry, Innovation, and Infrastructure">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 9: Industry, Innovation, and Infrastructure</h5>
+                        <p class="card-text">Tamil Nadu promotes industrial growth and innovation with various schemes aimed at infrastructure development.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-10.jpg" class="card-img-top"
+                        alt="Reduced Inequality">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 10: Reduced Inequality</h5>
+                        <p class="card-text">The government works on reducing inequalities across gender, income, and regional disparities.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-11.jpg" class="card-img-top"
+                        alt="Sustainable Cities and Communities">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 11: Sustainable Cities and Communities</h5>
+                        <p class="card-text">The government is actively involved in urban renewal and creating sustainable infrastructure in cities.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-12.jpg" class="card-img-top"
+                        alt="Responsible Consumption and Production">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 12: Responsible Consumption and Production</h5>
+                        <p class="card-text">Tamil Nadu focuses on sustainable practices and waste management through various initiatives.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Goal 13 to Goal 17 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg" class="card-img-top"
+                        alt="Climate Action">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 13: Climate Action</h5>
+                        <p class="card-text">TN government is implementing the Tamil Nadu Climate Change Mission to combat environmental challenges.</p>
+                        <a href="https://www.environment.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-14.jpg" class="card-img-top"
+                        alt="Life Below Water">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 14: Life Below Water</h5>
+                        <p class="card-text">The state is involved in marine conservation and sustainable use of marine resources.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-15.jpg" class="card-img-top"
+                        alt="Life on Land">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 15: Life on Land</h5>
+                        <p class="card-text">Tamil Nadu is focused on preserving biodiversity and forests through initiatives like the Forest Conservation Act.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-16.jpg" class="card-img-top"
+                        alt="Peace, Justice, and Strong Institutions">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 16: Peace, Justice, and Strong Institutions</h5>
+                        <p class="card-text">Tamil Nadu is enhancing governance through transparent institutions and justice reforms.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card goal-card">
+                    <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-17.jpg" class="card-img-top"
+                        alt="Partnerships for the Goals">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal 17: Partnerships for the Goals</h5>
+                        <p class="card-text">Tamil Nadu collaborates with national and international organizations to achieve SDGs.</p>
+                        <a href="https://www.tn.gov.in" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-white text-center py-3 mt-4">
+        <p>&copy; 2024 SDG Goals - Tamil Nadu | <a href="https://sdgs.un.org/goals" class="text-white" target="_blank">Learn More</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
